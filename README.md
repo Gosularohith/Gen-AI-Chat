@@ -30,6 +30,6 @@ genai-rag-assistant/
 │
 └── README.md
 
-git clone https://github.com/your-username/genai-rag-assistant.git
+git clone https://github.com/Gosularohith/Gen-AI-Chat/genai-rag-assistant.git
 cd genai-rag-assistant
 
