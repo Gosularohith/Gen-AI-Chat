@@ -15,18 +15,6 @@ The assistant answers user questions by retrieving relevant context from stored 
 - **RAG Pipeline**: Document ingestion → Embeddings → Vector similarity search → Context injection → LLM response
 - **Conversation Memory**: Short history (last 5 turns)
 
----
-
-## 🏗️ Architecture
-
-```mermaid
-flowchart TD
-    A[User Query] --> B[Frontend (HTML/JS)]
-    B --> C[FastAPI Backend]
-    C --> D[Embeddings API]
-    D --> E[Vector Store (FAISS/ChromaDB)]
-    E --> F[Relevant
-
 genai-rag-assistant/
 │── backend/
 │   ├── main.py              # FastAPI server
